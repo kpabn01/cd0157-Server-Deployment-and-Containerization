@@ -4,6 +4,11 @@
 *.pyc
 *.pyo
 env/
+# Windows python virt. env
+venv/
+# Linux python virt. env
+myenv/
+.env_file
 env*
 dist/
 build/
