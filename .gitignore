@@ -9,6 +9,7 @@ venv/
 # Linux python virt. env
 myenv/
 .env_file
+.env_sample
 env*
 dist/
 build/
