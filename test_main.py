@@ -37,4 +37,6 @@ def test_auth(client):
 
     assert response.status_code == 200
     token = response.json['token']
-    assert token==False #is not None
+    assert token is not None
+    # The line bellow makes the build fail
+    #assert token==False
